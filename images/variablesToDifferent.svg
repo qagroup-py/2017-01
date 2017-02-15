@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="diagram" version="1.1" height="208" width="360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs xmlns="http://www.w3.org/1999/xhtml"><style type="text/css"><![CDATA[
+body { max-width: 680px; margin-left: auto; margin-right: auto; padding: 20px; text-align: justify; line-height: 139%; color: rgb(34, 34, 34); font-family: Palatino, Georgia, 'Times New Roman', serif; }
+body { counter-reset: h1 0, h2 0, h3 0, h4 0, h5 0, h6 0; }
+.md div.title { font-size: 26px; font-weight: 800; padding-bottom: 0px; line-height: 120%; text-align: center; }
+.md div.aftertitles { height: 0px; }
+.md div.subtitle { text-align: center; }
+.md div.title, h1, h2 h3 h4 h5 h6 { font-family: Verdana, Helvetica, Arial, sans-serif; }
+.md svg.diagram { border: 1px solid; display: block; font-family: Menlo, 'Lucida Console', monospace; font-size: 12px; text-align: center; stroke-linecap: round; stroke-width: 2px; }
+h1 { padding-bottom: 3px; border-bottom-width: 3px; border-bottom-style: solid; padding-top: 15px; border-top-style: none; font-size: 20px; counter-reset: h2 0, h3 0, h4 0, h5 0, h6 0; }
+h2 { counter-reset: h3 0, h4 0, h5 0, h6 0; font-family: Helvetica, Arial, sans-serif; padding-top: 15px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(153, 153, 153); border-top-style: none; color: rgb(85, 85, 85); font-size: 18px; }
+h3, h4, h5, h6 { font-family: Helvetica, Arial, sans-serif; padding-top: 15px; border-top-style: none; color: rgb(85, 85, 85); font-size: 16px; }
+h3 { counter-reset: h4 0, h5 0, h6 0; }
+h4 { counter-reset: h5 0, h6 0; }
+h5 { counter-reset: h6 0; }
+.md table { border-collapse: collapse; }
+.md th { color: rgb(255, 255, 255); border: 1px solid rgb(136, 136, 136); padding: 8px 15px; background-color: rgb(170, 170, 170); }
+.md td { padding: 5px 15px; border: 1px solid rgb(136, 136, 136); }
+.md tr:nth-child(2n) { background: rgb(238, 238, 238); }
+.md dt { font-weight: 700; }
+.md dd { padding-bottom: 18px; }
+.md code { white-space: pre; }
+.md div.markdeepfooter { font-size: 9px; text-align: right; padding-top: 80px; color: rgb(153, 153, 153); }
+h1::before { content: counter(h1) ". "; counter-increment: h1 1; }
+h2::before { content: counter(h1) "." counter(h2) " "; counter-increment: h2 1; }
+h3::before { content: counter(h1) "." counter(h2) "." counter(h3) " "; counter-increment: h3 1; }
+h4::before { content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) " "; counter-increment: h4 1; }
+h5::before { content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " "; counter-increment: h5 1; }
+h6::before { content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " "; counter-increment: h6 1; }
+.hljs { display: block; overflow-x: auto; padding: 0.5em; color: black; background: rgb(255, 255, 255); }
+.hljs-comment { color: rgb(0, 106, 0); }
+.hljs-keyword, .hljs-literal, .nginx .hljs-title { color: rgb(170, 13, 145); }
+.method, .hljs-list .hljs-title, .hljs-tag .hljs-title, .setting .hljs-value, .hljs-winutils, .tex .hljs-command, .http .hljs-title, .hljs-request, .hljs-status, .hljs-name { color: rgb(0, 0, 136); }
+.hljs-envvar, .tex .hljs-special { color: rgb(102, 102, 0); }
+.hljs-string { color: rgb(196, 26, 22); }
+.hljs-tag .hljs-value, .hljs-cdata, .hljs-filter .hljs-argument, .hljs-attr_selector, .apache .hljs-cbracket, .hljs-date, .hljs-regexp { color: rgb(0, 136, 0); }
+.hljs-sub .hljs-identifier, .hljs-pi, .hljs-tag, .hljs-tag .hljs-keyword, .hljs-decorator, .ini .hljs-title, .hljs-shebang, .hljs-prompt, .hljs-hexcolor, .hljs-rule .hljs-value, .hljs-symbol, .hljs-symbol .hljs-string, .hljs-number, .css .hljs-function, .hljs-function .hljs-title, .coffeescript .hljs-attribute { color: rgb(28, 0, 207); }
+.hljs-class .hljs-title, .smalltalk .hljs-class, .hljs-type, .hljs-typename, .hljs-tag .hljs-attribute, .hljs-doctype, .hljs-class .hljs-id, .hljs-built_in, .setting, .hljs-params, .clojure .hljs-attribute { color: rgb(92, 38, 153); }
+.hljs-variable { color: rgb(63, 110, 116); }
+.css .hljs-tag, .hljs-rule .hljs-property, .hljs-pseudo, .hljs-subst { color: rgb(0, 0, 0); }
+.css .hljs-class, .css .hljs-id { color: rgb(155, 112, 63); }
+.hljs-value .hljs-important { color: rgb(255, 119, 0); font-weight: bold; }
+.hljs-rule .hljs-keyword { color: rgb(197, 175, 117); }
+.hljs-annotation, .apache .hljs-sqbracket, .nginx .hljs-built_in { color: rgb(155, 133, 157); }
+.hljs-preprocessor, .hljs-preprocessor *, .hljs-pragma { color: rgb(100, 56, 32); }
+.tex .hljs-formula { font-style: italic; background-color: rgb(238, 238, 238); }
+.diff .hljs-header, .hljs-chunk { color: rgb(128, 128, 128); font-weight: bold; }
+.diff .hljs-change { background-color: rgb(188, 207, 249); }
+.hljs-addition { background-color: rgb(186, 238, 186); }
+.hljs-deletion { background-color: rgb(255, 200, 189); }
+.hljs-comment .hljs-doctag { font-weight: bold; }
+.method .hljs-id { color: rgb(0, 0, 0); }
+div.title { padding-top: 20px; }
+div.aftertitles { height: 15px; }]]></style></defs><g transform="translate(8,16 )">
+<path d="M 40,48 L 40,80 " style="fill:none; stroke:black;"/>
+<path d="M 40,112 L 40,144 " style="fill:none; stroke:black;"/>
+<path d="M 88,48 L 88,80 " style="fill:none; stroke:black;"/>
+<path d="M 88,112 L 88,144 " style="fill:none; stroke:black;"/>
+<path d="M 168,16 L 168,160 " style="fill:none; stroke:black;"/>
+<path d="M 40,48 L 88,48 " style="fill:none; stroke:black;"/>
+<path d="M 264,48 L 312,48 " style="fill:none; stroke:black;"/>
+<path d="M 88,64 L 160,64 " style="fill:none; stroke:black;"/>
+<path d="M 176,64 L 240,64 " style="fill:none; stroke:black;"/>
+<path d="M 40,80 L 88,80 " style="fill:none; stroke:black;"/>
+<path d="M 264,80 L 312,80 " style="fill:none; stroke:black;"/>
+<path d="M 40,112 L 88,112 " style="fill:none; stroke:black;"/>
+<path d="M 264,112 L 312,112 " style="fill:none; stroke:black;"/>
+<path d="M 88,128 L 160,128 " style="fill:none; stroke:black;"/>
+<path d="M 176,128 L 240,128 " style="fill:none; stroke:black;"/>
+<path d="M 40,144 L 88,144 " style="fill:none; stroke:black;"/>
+<path d="M 264,144 L 312,144 " style="fill:none; stroke:black;"/>
+<path d="M 264,48 C 247.2,48 248,64 248,64 " style="fill:none; stroke:black;"/>
+<path d="M 312,48 C 328.8,48 328,64 328,64 " style="fill:none; stroke:black;"/>
+<path d="M 264,80 C 247.2,80 248,64 248,64 " style="fill:none; stroke:black;"/>
+<path d="M 312,80 C 328.8,80 328,64 328,64 " style="fill:none; stroke:black;"/>
+<path d="M 264,112 C 247.2,112 248,128 248,128 " style="fill:none; stroke:black;"/>
+<path d="M 312,112 C 328.8,112 328,128 328,128 " style="fill:none; stroke:black;"/>
+<path d="M 264,144 C 247.2,144 248,128 248,128 " style="fill:none; stroke:black;"/>
+<path d="M 312,144 C 328.8,144 328,128 328,128 " style="fill:none; stroke:black;"/>
+<polygon points="248,64 236,58.4 236,69.6 " style="fill:black" transform="rotate(0,240,64 )"/>
+<polygon points="248,128 236,122.4 236,133.6 " style="fill:black" transform="rotate(0,240,128 )"/>
+<g transform="translate(0, 0)">
+<text text-anchor="middle" x="24" y="20" style="fill:#o00;">v</text>
+<text text-anchor="middle" x="32" y="20" style="fill:#o00;">a</text>
+<text text-anchor="middle" x="40" y="20" style="fill:#o00;">r</text>
+<text text-anchor="middle" x="48" y="20" style="fill:#o00;">i</text>
+<text text-anchor="middle" x="56" y="20" style="fill:#o00;">a</text>
+<text text-anchor="middle" x="64" y="20" style="fill:#o00;">b</text>
+<text text-anchor="middle" x="64" y="68" style="fill:#o00;">a</text>
+<text text-anchor="middle" x="64" y="132" style="fill:#o00;">b</text>
+<text text-anchor="middle" x="72" y="20" style="fill:#o00;">l</text>
+<text text-anchor="middle" x="80" y="20" style="fill:#o00;">e</text>
+<text text-anchor="middle" x="88" y="20" style="fill:#o00;">s</text>
+<text text-anchor="middle" x="248" y="20" style="fill:#o00;">m</text>
+<text text-anchor="middle" x="256" y="20" style="fill:#o00;">e</text>
+<text text-anchor="middle" x="264" y="20" style="fill:#o00;">m</text>
+<text text-anchor="middle" x="272" y="20" style="fill:#o00;">o</text>
+<text text-anchor="middle" x="280" y="20" style="fill:#o00;">r</text>
+<text text-anchor="middle" x="280" y="68" style="fill:#o00;">3</text>
+<text text-anchor="middle" x="280" y="132" style="fill:#o00;">3</text>
+<text text-anchor="middle" x="288" y="20" style="fill:#o00;">y</text>
+<text text-anchor="middle" x="288" y="68" style="fill:#o00;">.</text>
+<text text-anchor="middle" x="288" y="132" style="fill:#o00;">.</text>
+<text text-anchor="middle" x="296" y="68" style="fill:#o00;">1</text>
+<text text-anchor="middle" x="296" y="132" style="fill:#o00;">1</text>
+<text text-anchor="middle" x="304" y="20" style="fill:#o00;">d</text>
+<text text-anchor="middle" x="304" y="68" style="fill:#o00;">4</text>
+<text text-anchor="middle" x="304" y="132" style="fill:#o00;">4</text>
+<text text-anchor="middle" x="312" y="20" style="fill:#o00;">a</text>
+<text text-anchor="middle" x="320" y="20" style="fill:#o00;">t</text>
+<text text-anchor="middle" x="328" y="20" style="fill:#o00;">a</text>
+</g></g></svg>
