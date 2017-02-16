@@ -10,3 +10,4 @@ Date  | τ   | Στ   | Topic
 09/02 | 2   | 15.5 | Python 2
 11/02 | 4   | 19.5 | [Generic sequence operations](https://qagroup-py.github.io/2017-01/Sequence operations)
 14/02 | 0   | 19.5 |
+16/02 | 2   | 21.5 | [Big O, list, tuple, while, for](https://qagroup-py.github.io/2017-01/Big O, list, tuple, loops)
