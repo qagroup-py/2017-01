@@ -13,4 +13,4 @@ Date  | τ   | Στ   | ppl | Topic | Gists
 14/02 | 0   | 21.5 |     |
 16/02 | 2   | 23.5 | 319 | [Big O, list, tuple, while, for](https://qagroup-py.github.io/2017-01/Big O, list, tuple, loops)
 18/02 | 4   | 27.5 | 471 | [Set, dict, comprehensions](https://qagroup-py.github.io/2017-01/set, dict, comprehensions)
-21/02 | 2   | 29.5 | 383 | [Duck typing, iterators, generators](https://qagroup-py.github.io/2017-01/duck typing, iterators, generators)
+21/02 | 2   | 29.5 | 383 | [Duck typing, iterators, generators](https://qagroup-py.github.io/2017-01/duck typing, iterators, generators) | [fibonacci numbers](https://github.com/qagroup-py/2017-01/blob/master/fib.py)<br/>[word game](https://github.com/qagroup-py/2017-01/blob/master/word_game.py)<br/>[horizontal histogram](https://github.com/qagroup-py/2017-01/blob/master/histohram.py)
