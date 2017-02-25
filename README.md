@@ -5,8 +5,8 @@ Date  | τ   | Στ   | ppl | Topic | Gists
 28/01 | 0   | 4    |     |
 31/01 | 1.5 | 5.5  | 31  | Linux 2, toolset
 01/02 | 2   | 7.5  | 31  | Linux 3, toolset
-02/02 | 2   | 9.5  | 31  | VCS
-04/02 | 4   | 13.5 | 31  | Git
+02/02 | 2   | 9.5  | 31  | [VCS ideas](https://qagroup-py.github.io/2017-01/VCS ideas)
+04/02 | 4   | 13.5 | 31  | [Git](https://qagroup-py.github.io/2017-01/Git basics)
 07/02 | 2   | 15.5 | 487 | Python 1
 09/02 | 2   | 17.5 | 503 | Python 2
 11/02 | 4   | 21.5 | 511 | [Generic sequence operations](https://qagroup-py.github.io/2017-01/Sequence operations)
