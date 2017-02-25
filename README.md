@@ -14,6 +14,6 @@ Date  | τ   | Στ   | ppl | Topic | Gists
 16/02 | 2   | 23.5 | 319 | [Big O, list, tuple, while, for](https://qagroup-py.github.io/2017-01/Big O, list, tuple, loops)
 18/02 | 4   | 27.5 | 471 | [Set, dict, comprehensions](https://qagroup-py.github.io/2017-01/set, dict, comprehensions)
 21/02 | 2   | 29.5 | 383 | [Duck typing, iterators, generators](https://qagroup-py.github.io/2017-01/duck typing, iterators, generators) | [fibonacci numbers](https://github.com/qagroup-py/2017-01/blob/master/fib.py)<br/>[word game](https://github.com/qagroup-py/2017-01/blob/master/word_game.py)<br/>[horizontal histogram](https://github.com/qagroup-py/2017-01/blob/master/histohram.py)
-22/02 | 2   | 29.5 | 352 | [VCS ideas]() <br/>[Git]()
-23/02 | 2   | 31.5 | 383 |
-25/02 | 4   | 35.5 | 375 | [Functions]()
+22/02 | 2   | 29.5 | 352 | [VCS ideas](https://qagroup-py.github.io/2017-01/VCS ideas) <br/>[Git](https://qagroup-py.github.io/2017-01/Git basics)
+23/02 | 2   | 31.5 | 383 | Practice
+25/02 | 4   | 35.5 | 375 | [Functions](https://qagroup-py.github.io/2017-01/functions) | [linear cypher](https://github.com/qagroup-py/2017-01/blob/master/cypher_linear.py) <br/>[dict cypher](https://github.com/qagroup-py/2017-01/blob/master/cypher_dict.py)
