@@ -19,3 +19,7 @@ Date  | τ   | Στ   | ppl | Topic | Gists
 25/02 | 4   | 35.5 | 375 | [Functions](https://qagroup-py.github.io/2017-01/functions) | [linear cypher](https://github.com/qagroup-py/2017-01/blob/master/cypher_linear.py) <br/>[dict cypher](https://github.com/qagroup-py/2017-01/blob/master/cypher_dict.py)
 27/02 | 2*  | 35.5 | 352 | [Intro, CS history](https://qagroup-py.github.io/2017-01/Intro) <br/> Linux
 28/02 | 2   | 37.5 | 287 | [Exceptions](https://qagroup-py.github.io/2017-01/exceptions)
+02/03 | 2   | 39.5 | 375 | Lazy boolean math, \* \*\* unpacking, files
+04/03 | 4.5 | 44   |     |
+07/03 | 2   | 46   | 39  | Git/github practice
+09/03 | 2   | 48   | 23  | OOP practice | [Lamp classes](https://github.com/qagroup-py/2017-01/blob/master/OOP_practice_Lamp.py) <br/> [Chair classs](https://github.com/qagroup-py/2017-01/blob/master/OOP_practice_Chair.py)
