@@ -25,7 +25,7 @@ class Cart(defaultdict):
 class User:
     def __init__(self, login, password):
         self.login = login
-        self._password_hash = password
+        self.password = hash(password)
         self.cart = Cart()
 
 
