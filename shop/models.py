@@ -1,4 +1,5 @@
 from collections import defaultdict
+from hashlib import sha1
 
 
 class Item:
@@ -15,7 +16,7 @@ class Item:
 
 class Cart(defaultdict):
     def __init__(self, *args):
-        super().__init__(int)
+        super().__init__(int, *args)
 
     @property
     def total(self):
@@ -25,13 +26,22 @@ class Cart(defaultdict):
 class User:
     def __init__(self, login, password):
         self.login = login
-        self.password = hash(password)
+        self.password = password
         self.cart = Cart()
+
+    def buy(self, item, qt=1):
+        self.cart[item] += qt
+
+    @property
+    def password(self):
+        raise Exception('We do not store password')
+
+    @password.setter
+    def password(self, value):
+        if len(value) < 6:
+            raise Exception('Password too short')
+        self.password_hash = sha1(value.encode()).hexdigest()
 
 
 class Store:
     ...
-
-
-def buy(user, item, qt=1):
-    user.cart[item] += qt

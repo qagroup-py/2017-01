@@ -1,10 +1,20 @@
-from models import User, Item, buy
+import unittest
+from models import User
 
 
-# user buys item
-item = Item(name='banana', price=2)
-user = User('user10', 'passwd')
-buy(user, item, 5)
+class TestUser(unittest.TestCase):
+    def setUp(self):
+        self.user = User('username', 'qwerty')
 
-assert user.cart[item] == 5
-assert user.cart.total == 10
+    def tearDown(self):
+        ...
+
+    def test_login(self):
+        self.assertEqual(self.user.login, 'username')
+
+    def test_cart(self):
+        self.assertEqual(len(self.user.cart), 0)
+
+
+if __name__ == '__main__':
+    unittest.main()
