@@ -27,3 +27,4 @@ Date  | τ   | Στ   | ppl | Topic | Gists
 14/03 | 2   | 54   | 279 | Practice, magic methods | [Basic account](https://github.com/qagroup-py/2017-01/blob/master/accounts.py)
 16/03 | 2   | 56   | 287 | Practice | [Basic cards](https://github.com/qagroup-py/2017-01/blob/master/cards.py)
 18/03 | 4   | 60   | 327 | Practice, security fairy tales | [Basic shop classes](https://github.com/qagroup-py/2017-01/blob/90c13f1f9ab30dfbcda54ad7592ac192fb691579/shop/models.py) <br/> [Smoke tests](https://github.com/qagroup-py/2017-01/blob/b17149bf259bc0071b031c707723bfa5055a6301/shop/test_models.py)
+21/03 | 2   | 62   | 311 | Practice, properties, unittest basics | [Password property](https://github.com/qagroup-py/2017-01/blob/76b932ae301ab78f10b1381ebef5c0842c4a0aac/shop/models.py)<br/>[unittest basics](https://github.com/qagroup-py/2017-01/blob/76b932ae301ab78f10b1381ebef5c0842c4a0aac/shop/test_models.py)
